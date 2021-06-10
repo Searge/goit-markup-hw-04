@@ -61,16 +61,49 @@
   display: flex;
 }
 
+/* Icons background */
 .features__item::before {
   display: block;
   content: '';
+  min-width: 270px;
   height: 120px;
   background-color: var(--secondary-bg);
-  background-image: url(../images/icons/astronaut.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+
   border-radius: 4px;
   margin-bottom: 30px;
+}
+
+/* Icons */
+.features__item:nth-child(1)::before {
+  content: '';
+  background-image: url(../images/icons/antenna.svg);
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features__item:nth-child(2)::before {
+  content: '';
+  background-image: url(../images/icons/clock.svg);
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features__item:nth-child(3)::before {
+  content: '';
+  background-image: url(../images/icons/diagram.svg);
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features__item:nth-child(4)::before {
+  content: '';
+  background-image: url(../images/icons/astronaut.svg);
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .features__item + .features__item {
