@@ -8,6 +8,13 @@
   --accent: #2196f3;
   --border-color: #ececec;
   --border-box-color: #eeeeee;
+  /* Icon Connection */
+  --fb: url('../images/social/facebook.svg');
+  --insta: url('../images/social/instagram.svg');
+  --linked: url('../images/social/linkedin.svg');
+  --twi: url('../images/social/twitter.svg');
+
+  --phone: url('../images/connect/smartphone.svg');
 }
 
 body {
@@ -114,8 +121,39 @@ body {
   display: flex;
 }
 
+/* .main-nav {
+  display: flex;
+  align-items: center;
+} */
+
 .main-nav.contacts__item + .main-nav.contacts__item {
   margin-left: 50px;
+}
+
+.contacts__link.link-mail::before {
+  content: '';
+  display: inline-block;
+  background-image: url('../images/connect/envelope.svg');
+
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-right: 10px;
+
+
+}
+
+.link-phone::before {
+  display: inline-block;
+  content: '';
+  width: 10px;
+  min-height: 16px;
+  background-image: var(--phone);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-right: 10px;
+
 }
 
 .contacts__link {
