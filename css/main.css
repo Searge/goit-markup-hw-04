@@ -2,9 +2,10 @@
 .hero {
   background-color: var(--ternary-bg);
   background-image: linear-gradient(
-    to bottom,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url('../images/hero_bg.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -58,6 +59,18 @@
 
 .features.list {
   display: flex;
+}
+
+.features__item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-color: var(--secondary-bg);
+  background-image: url(../images/icons/astronaut.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .features__item + .features__item {
