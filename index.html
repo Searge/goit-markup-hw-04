@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1600, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Site Styles -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="page-header">
+      <div class="container main-nav">
+        <!-- Logo -->
+        <nav class="navigation">
+          <div class="logo">
+            <a href="./" class="logo__link"
+              ><span class="logo__accent">Web</span>Studio</a
+            >
+          </div>
+
+          <!-- Menu -->
+          <ul class="menu list">
+            <li class="menu__item">
+              <a class="menu__link current" href="./">Студия</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Login -->
+        <ul class="contacts list">
+          <li class="main-nav contacts__item">
+            <a class="contacts__link" href="mailto://info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="main-nav contacts__item">
+            <a class="contacts__link" href="tel://+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <button class="button" type="button">Заказать услугу</button>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section features">
+        <div class="container">
+          <h2 class="section__heading hidden">Особенности</h2>
+          <!-- Why us -->
+          <ul class="features list">
+            <li class="features__item">
+              <h3 class="features__title">Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__title">Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__title">Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__title">Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Development  -->
+      <section class="section development">
+        <div class="container">
+          <h2 class="section__heading">Чем мы занимаемся</h2>
+
+          <ul class="dev list">
+            <li class="dev__item">
+              <img
+                src="./images/coding.jpg"
+                alt="Кодинг на планшете"
+                width="370"
+              />
+            </li>
+            <li class="dev__item">
+              <img
+                src="./images/phone.jpg"
+                alt="Разработка миобильного приложения"
+                width="370"
+              />
+            </li>
+            <li class="dev__item">
+              <img
+                src="./images/palette.jpg"
+                alt="Цветовая схема"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Team  -->
+      <section class="section team">
+        <div class="container">
+          <h2 class="section__heading">Наша команда</h2>
+          <ul class="team list">
+            <li class="team__item">
+              <img src="./images/igor.jpg" alt="Игорь" width="270" />
+
+              <h3 class="team__title">Игорь Демьяненко</h3>
+              <p>Product Designer</p>
+            </li>
+            <li class="team__item">
+              <img src="./images/olga.jpg" alt="Ольга" width="270" />
+              <h3 class="team__title">Ольга Репина</h3>
+              <p>Frontend Developer</p>
+            </li>
+            <li class="team__item">
+              <img src="./images/nikola.jpg" alt="Николай" width="270" />
+              <h3 class="team__title">Николай Тарасов</h3>
+              <p>Marketing</p>
+            </li>
+            <li class="team__item">
+              <img src="./images/mike.jpg" alt="Михаил" width="270" />
+              <h3 class="team__title">Михаил Ермаков</h3>
+              <p>UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer container">
+        <div class="footer logo">
+          <a href="./" class="logo__link"
+            ><span class="logo__accent">Web</span>Studio</a
+          >
+        </div>
+
+        <address class="footer contacts">
+          г. Киев, пр-т Леси Украинки, 26
+          <ul class="footer contacts list">
+            <li class="footer contacts__item">
+              <a class="contacts__link" href="mailto://info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer contacts__item">
+              <a class="contacts__link" href="tel://+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
