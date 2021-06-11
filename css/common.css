@@ -121,10 +121,12 @@ body {
   display: flex;
 }
 
-/* .main-nav {
+.main-nav.contacts__item > .contacts__link {
   display: flex;
   align-items: center;
-} */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .main-nav.contacts__item + .main-nav.contacts__item {
   margin-left: 50px;
@@ -140,8 +142,6 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin-right: 10px;
-
-
 }
 
 .link-phone::before {
@@ -153,7 +153,6 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin-right: 10px;
-
 }
 
 .contacts__link {
@@ -168,12 +167,6 @@ body {
 .contacts__link:hover,
 .contacts__link:focus {
   color: var(--accent);
-}
-
-.main-nav.contacts__item > .contacts__link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .section {
