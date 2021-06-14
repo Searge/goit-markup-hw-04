@@ -59,7 +59,12 @@ body {
   padding-right: 15px;
 }
 
-/* Header */
+/*
+_  _ ____ ____ ___  ____ ____
+|__| |___ |__| |  \ |___ |__/
+|  | |___ |  | |__/ |___ |  \
+
+*/
 .page-header {
   color: var(--logo-color);
   border-bottom: 1px solid var(--border-color);
@@ -80,7 +85,10 @@ body {
   padding-bottom: 24px;
 }
 
-/* Logo */
+/*
+█░░ █▀█ █▀▀ █▀█
+█▄▄ █▄█ █▄█ █▄█
+*/
 .logo {
   display: flex;
   font-family: Raleway, sans-serif;
@@ -98,7 +106,10 @@ body {
   color: var(--accent);
 }
 
-/* Menu */
+/*
+█▀▄▀█ █▀▀ █▄░█ █░█
+█░▀░█ ██▄ █░▀█ █▄█
+*/
 .menu {
   display: flex;
   margin-left: 90px;
@@ -126,6 +137,15 @@ body {
   color: var(--accent);
 }
 
+/*
+____ ____ _  _ ___ ____ ____ ___ ____
+|    |  | |\ |  |  |__| |     |  [__
+|___ |__| | \|  |  |  | |___  |  ___]
+*/
+.contacts {
+  font-style: normal;
+}
+
 /* Contacts Header */
 .page-header .contacts {
   display: flex;
@@ -140,11 +160,6 @@ body {
 
 .main-nav.contacts__item + .main-nav.contacts__item {
   margin-left: 50px;
-}
-
-/* Common Contacts */
-.contacts {
-  font-style: normal;
 }
 
 .contacts__link.link-mail::before {
@@ -183,32 +198,11 @@ body {
   color: var(--accent);
 }
 
-/* Buttons */
-.button {
-  color: var(--primary-bg-color);
-  background-color: var(--accent);
-  border-radius: 4px;
-  border: none;
-  height: 50px;
-  display: inline-block;
-  padding: 10px 32px;
-  min-width: 200px;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.button:hover {
-  transition-duration: 0.4s;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-/* Footer */
+/*
+____ ____ ____ ___ ____ ____
+|___ |  | |  |  |  |___ |__/
+|    |__| |__|  |  |___ |  \
+*/
 .footer {
   background-color: var(--ternary-bg);
   color: var(--primary-bg-color);
@@ -232,6 +226,36 @@ body {
 }
 
 /*
+___  _  _ ___ ___ ____ _  _ ____
+|__] |  |  |   |  |  | |\ | [__
+|__] |__|  |   |  |__| | \| ___]
+*/
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent);
+  border-radius: 4px;
+  border: none;
+  height: 50px;
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*
   888b     d888          d8b
   8888b   d8888          Y8P
   88888b.d88888
@@ -241,7 +265,11 @@ body {
   888   "   888 888  888 888 888  888
   888       888 "Y888888 888 888  888
   */
-/* Hero */
+/*
+_  _ ____ ____ ____
+|__| |___ |__/ |  |
+|  | |___ |  \ |__|
+*/
 .hero {
   background-color: var(--ternary-bg);
   background-image: linear-gradient(
@@ -271,7 +299,11 @@ body {
   text-transform: uppercase;
 }
 
-/* Sections */
+/*
+____ ____ ____ ___ _ ____ _  _ ____
+[__  |___ |     |  | |  | |\ | [__
+___] |___ |___  |  | |__| | \| ___]
+*/
 .section__heading {
   margin-top: 0;
   margin-bottom: 50px;
@@ -283,7 +315,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Features */
+/*
+____ ____ ____ ___ _  _ ____ ____ ____
+|___ |___ |__|  |  |  | |__/ |___ [__
+|    |___ |  |  |  |__| |  \ |___ ___]
+*/
 .features__title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -299,6 +335,11 @@ body {
   display: flex;
 }
 
+/*
+_ ____ ____ _  _ ____
+| |    |  | |\ | [__
+| |___ |__| | \| ___]
+*/
 /* Icons background */
 .features__item::before {
   display: block;
@@ -311,7 +352,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Icons */
+/* Icons list */
 .features__item:nth-child(1)::before {
   content: '';
   background-image: url(../images/icons/antenna.svg);
@@ -357,7 +398,12 @@ body {
   padding-top: 0;
 }
 
-/* Development */
+/*
+___  ____ _  _ ____ _    ____ ___  _  _ ____ _  _ ___
+|  \ |___ |  | |___ |    |  | |__] |\/| |___ |\ |  |
+|__/ |___  \/  |___ |___ |__| |    |  | |___ | \|  |
+
+*/
 .dev.list {
   display: flex;
 }
@@ -366,7 +412,12 @@ body {
   margin-left: 30px;
 }
 
-/* Team */
+/*
+___ ____ ____ _  _
+ |  |___ |__| |\/|
+ |  |___ |  | |  |
+
+*/
 .section.team {
   background-color: var(--secondary-bg);
 }
@@ -412,7 +463,11 @@ body {
   888        "Y88P"  888      "Y888 888    "Y88P"  888 888  "Y88P"
 */
 
-/* Filter */
+/*
+____ _ _    ___ ____ ____
+|___ | |     |  |___ |__/
+|    | |___  |  |___ |  \
+*/
 .filter {
   display: flex;
   align-items: center;
@@ -446,7 +501,11 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Projects */
+/*
+___  ____ ____  _ ____ ____ ___ ____
+|__] |__/ |  |  | |___ |     |  [__
+|    |  \ |__| _| |___ |___  |  ___]
+*/
 .project {
   display: flex;
   flex-wrap: wrap;
