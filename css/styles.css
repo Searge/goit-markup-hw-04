@@ -25,6 +25,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*
    .d8888b.
   d88P  Y88b
@@ -199,6 +215,7 @@ ____ ____ ____ ___ ____ ____
 .footer.container {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .footer.logo {
@@ -211,6 +228,35 @@ ____ ____ ____ ___ ____ ____
 
 .footer.contacts__item {
   margin-top: 9;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 70px;
+}
+
+/*
+ _ ____ _ _  _
+ | |  | | |\ |
+_| |__| | | \|
+
+*/
+.join__social {
+  display: flex;
+}
+
+.join__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.join__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.join.social__link {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /*
