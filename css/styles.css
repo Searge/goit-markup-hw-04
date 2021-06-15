@@ -395,6 +395,9 @@ ___ ____ ____ _  _
 .team__item {
   padding-bottom: 30px;
   background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   font-size: 16px;
   line-height: 1.14;
   text-align: center;
@@ -411,7 +414,43 @@ ___ ____ ____ _  _
 
 .team__item p {
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
+}
+
+/*
+_ ____ ____ _  _ ____
+| |    |  | |\ | [__
+| |___ |__| | \| ___]
+
+*/
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--border);
+}
+.social__link:hover,
+.social__link:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent);
+}
+
+.social-icon {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
 }
 
 /*
