@@ -63,16 +63,22 @@
           </ul>
         </nav>
 
-        <!-- Login -->
+        <!-- Contacts -->
         <ul class="contacts list">
           <li class="main-nav contacts__item">
-            <a class="contacts__link link-mail" href="mailto://info@example.com"
-              >info@example.com</a
+            <a class="contacts__link" href="mailto://info@example.com">
+              <svg class="link-icon">
+                <use href="./images/icons/sprites.svg#envelope"></use>
+              </svg>
+              info@example.com</a
             >
           </li>
           <li class="main-nav contacts__item">
-            <a class="contacts__link link-phone" href="tel://+380991111111"
-              >+38 099 111 11 11</a
+            <a class="contacts__link" href="tel://+380991111111">
+              <svg class="link-icon">
+                <use href="./images/icons/sprites.svg#smartphone"></use>
+              </svg>
+              +38 099 111 11 11</a
             >
           </li>
         </ul>
@@ -102,8 +108,14 @@
         <div class="container">
           <h2 class="section__heading hidden">Особенности</h2>
           <!-- Why us -->
+
           <ul class="features list">
             <li class="features__item">
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#antenna"></use>
+                </svg>
+              </div>
               <h3 class="features__title">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
@@ -111,6 +123,11 @@
               </p>
             </li>
             <li class="features__item">
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#clock"></use>
+                </svg>
+              </div>
               <h3 class="features__title">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
@@ -118,6 +135,11 @@
               </p>
             </li>
             <li class="features__item">
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#diagram"></use>
+                </svg>
+              </div>
               <h3 class="features__title">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
@@ -125,6 +147,11 @@
               </p>
             </li>
             <li class="features__item">
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#astronaut"></use>
+                </svg>
+              </div>
               <h3 class="features__title">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
@@ -171,26 +198,99 @@
         <div class="container">
           <h2 class="section__heading">Наша команда</h2>
           <ul class="team list">
+            <!-- TODO: Social links -->
             <li class="team__item">
               <img src="./images/team/igor.jpg" alt="Игорь" width="270" />
 
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#"></use>
+                </svg>
+              </div>
               <h3 class="team__title">Игорь Демьяненко</h3>
               <p>Product Designer</p>
             </li>
             <li class="team__item">
               <img src="./images/team/olga.jpg" alt="Ольга" width="270" />
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#"></use>
+                </svg>
+              </div>
               <h3 class="team__title">Ольга Репина</h3>
               <p>Frontend Developer</p>
             </li>
             <li class="team__item">
               <img src="./images/team/nikola.jpg" alt="Николай" width="270" />
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#"></use>
+                </svg>
+              </div>
               <h3 class="team__title">Николай Тарасов</h3>
               <p>Marketing</p>
             </li>
             <li class="team__item">
               <img src="./images/team/mike.jpg" alt="Михаил" width="270" />
+              <div class="icon__wrapper">
+                <svg class="features-icon">
+                  <use href="./images/icons/sprites.svg#"></use>
+                </svg>
+              </div>
               <h3 class="team__title">Михаил Ермаков</h3>
               <p>UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Partners -->
+      <section class="section partners">
+        <div class="container">
+          <h2 class="section__heading">Постоянные клиенты</h2>
+
+          <ul class="partners__list list">
+            <li class="partners__items">
+              <a class="partners__link" href="" aria-label="Partner 1">
+                <svg class="partner-icon">
+                  <use href="./images/icons/sprites.svg#logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__items">
+              <a class="partners__link" href="" aria-label="Partner 2">
+                <svg class="partner-icon">
+                  <use href="./images/icons/sprites.svg#logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__items">
+              <a class="partners__link" href="" aria-label="Partner 3">
+                <svg class="partner-icon">
+                  <use href="./images/icons/sprites.svg#logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__items">
+              <a class="partners__link" href="" aria-label="Partner 4">
+                <svg class="partner-icon">
+                  <use href="./images/icons/sprites.svg#logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__items">
+              <a class="partners__link" href="" aria-label="Partner 5">
+                <svg class="partner-icon">
+                  <use href="./images/icons/sprites.svg#logo-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__items">
+              <a class="partners__link" href="" aria-label="Partner 6">
+                <svg class="partner-icon">
+                  <use href="./images/icons/sprites.svg#logo-6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -221,6 +321,7 @@
             </li>
           </ul>
         </address>
+        <!-- TODO: Social links -->
       </div>
     </footer>
   </body>
