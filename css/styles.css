@@ -309,7 +309,14 @@ ___  _  _ ___ ___ ____ _  _ ____
   888  Y8P  888 .d888888 888 888  888
   888   "   888 888  888 888 888  888
   888       888 "Y888888 888 888  888
-  */
+*/
+.main {
+  width: 1600px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
 _  _ ____ ____ ____
 |__| |___ |__/ |  |
@@ -325,8 +332,7 @@ _  _ ____ ____ ____
     url('../images/hero_bg.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  max-width: 1600px;
-  align-items: center;
+
   text-align: center;
 }
 
