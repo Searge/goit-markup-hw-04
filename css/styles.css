@@ -272,6 +272,7 @@ _| |__| | | \|
 
 .join.social__link {
   background: rgba(255, 255, 255, 0.1);
+  color: var(--primary-bg-color);
 }
 
 /*
@@ -507,7 +508,7 @@ _ ____ ____ _  _ ____
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--border);
+  color: var(--ternary-buttons);
 }
 .social__link:hover,
 .social__link:focus {
